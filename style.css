@@ -1,4 +1,26 @@
 html{
-    background-color: blanchedalmond;
+    background-color: rgb(177, 134, 70);
     color: white;
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-direction: center; */
+}
+
+.fName{
+    font-size: 9rem;
+    color: gold;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    border-bottom: 0cm;
+}
+
+.lName{
+    font-size: 5rem;
+    margin-top: 0%;
+    padding-top: 0%;
+    border-top: 0cm;
 }
